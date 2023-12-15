@@ -1,0 +1,69 @@
+@import "reset";
+
+body {
+  background-color: $background-color;
+  font-family: 'Outfit';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  max-width: 20rem;    
+  max-height: 31.0625rem; 
+  border-radius: $card-border-radius;
+  background: $card-color;
+  box-shadow: $card-box-shadow;
+  padding: $space-base $space-base $space-l $space-base;
+}
+
+img {
+  border-radius: $img-border-radius;
+  height: 57%;
+  width: 100%;  /* These dimensions are needed otherwise if the user alters the font setting, the card dimension will scale but not the image since the dimensions of the image are set in HTML (as pixels) as attributes  */
+}
+
+h2 {
+  font-size: $font-size-main;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-normal;
+  color: $main-text-color;
+  margin-top: $space-m;
+}
+
+p {
+  font-size: $font-size-sub;
+  font-weight: $font-weight-regular;
+  line-height: $line-height-normal;
+  color: $sub-text-color;
+  margin-top: $space-base;
+  padding: $space-none $space-base;   
+} 
+
+footer {
+  max-width: 65%;
+
+  p {
+    font-size: $font-size-footer; 
+    margin-top: $space-l;
+    color: inherit;
+  }
+
+  a {
+    color: $link-color; 
+  }
+}
+
+/*
+
+--------------------
+Compiling Sass/Scss Files: 
+/Users/prosantoroychoudhury/Documents/Front-end mentor/qr-code-react/src/index.scss
+--------------------
+Generated :
+/Users/prosantoroychoudhury/Documents/Front-end mentor/qr-code-react/src/index.css
+/Users/prosantoroychoudhury/Documents/Front-end mentor/qr-code-react/src/index.css.map
+
+*/

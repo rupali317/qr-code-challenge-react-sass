@@ -1,0 +1,146 @@
+/* Colors */
+/* Typography */
+/* 22px */
+/* 15px */
+/* 13px */
+/* Normal */
+/* Spacing */
+/* 16px */
+/* 24px */
+/* 40px */
+/* Border radius */
+/* Box shadow */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+      text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p {
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4 {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: #3e52a3;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  background-color: #d6e2f0;
+  font-family: 'Outfit';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.card {
+  max-width: 20rem;
+  max-height: 31.0625rem;
+  border-radius: 20px;
+  background: white;
+  -webkit-box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+  padding: 1rem 1rem 2.5rem 1rem;
+}
+
+img {
+  border-radius: 10px;
+  height: 57%;
+  width: 100%;
+  /* These dimensions are needed otherwise if the user alters the font setting, the card dimension will scale but not the image since the dimensions of the image are set in HTML (as pixels) as attributes  */
+}
+
+h2 {
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #1f3251;
+  margin-top: 1.5rem;
+}
+
+p {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #7b879d;
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+
+footer {
+  max-width: 65%;
+}
+
+footer p {
+  font-size: 0.8125rem;
+  margin-top: 2.5rem;
+  color: inherit;
+}
+
+footer a {
+  color: #3e52a3;
+}
+
+/*
+
+--------------------
+Compiling Sass/Scss Files: 
+/Users/prosantoroychoudhury/Documents/Front-end mentor/qr-code-react/src/index.scss
+--------------------
+Generated :
+/Users/prosantoroychoudhury/Documents/Front-end mentor/qr-code-react/src/index.css
+/Users/prosantoroychoudhury/Documents/Front-end mentor/qr-code-react/src/index.css.map
+
+*/
+/*# sourceMappingURL=index.css.map */
