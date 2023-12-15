@@ -11,4 +11,4 @@ export default function Card() {
 }
 
 /* I have spent ard 3h so far to understand npm, node,homebrew, nvm, documentation related to create react app */
-/* I have spend 4h 11m for writing the react code using create-react-app and for writing sass code */
+/* I have spend 4h 11m for writing the react code using create-react-app and for writing sass code*/
