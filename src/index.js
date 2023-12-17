@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
-import Card from './Card';
-import Footer from './Footer';
+import Card from './Card component/Card';
+import Footer from './Footer component/Footer';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.createRoot(document.getElementById("main")).render(<Card />);
