@@ -15,7 +15,9 @@ Continued development:
 (DONE) 7) Investigate why the height is compressed in this version rather than the first - it was because !DOCTYPE was not present before. Without !DOCTYPE -> browser goes to quirk mode (old browsers rendering issue)
 8) Improve points from page speed
 
-Why sass is better than css? Does _partials get executed as one css?
-Should node_modules be in my github project?
-My project not working with GitHub pages but with Netlify - yes
+- Why sass is better than css? Does _partials get executed as one css?
+- Should node_modules be in my github project?
+- My project not working with GitHub pages but with Netlify - yes
+- I noticed that x-robots-tag:no index blocing crawling was there when I uploaded the  folders directly to Netlify. But integrating github code, that error
+went away
 -->
