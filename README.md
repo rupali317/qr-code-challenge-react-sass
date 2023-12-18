@@ -85,8 +85,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Useful resources
 
 - [Scrimba's React course](https://scrimba.com/learn/learnreact) - A hands-on mode of practicing React. It was a refresher for me.
+- [Steps to build React project using create-react-app](https://radixweb.com/blog/steps-to-build-react-project-with-create-react-app)
 - [Sass](https://sass-lang.com/)
-- [New viewport unit](https://ishadeed.com/article/new-viewport-units/#:~:text=Be%20careful%20with%20the%20dvh,is%20scrolling%20up%20or%20down.)
+- [New viewport unit](https://ishadeed.com/article/new-viewport-units/#:~:text=Be%20careful%20with%20the%20dvh,is%20scrolling%20up%20or%20down.) - Talked about when svh is used
   
 
 ## Author  
