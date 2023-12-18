@@ -52,19 +52,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
   
-1. meta tags are one of the factors that increase SEO and good for accessibility
-
-```html
-
-```
-
-2. 
-
-```html
-
-```
-
-3. 
+1. Importance of rel="noreferrer”. When we use target="_blank" in your HTML code to open a link in a new tab or window, there's a potential security risk, especially in older web browsers. If we do not add this information to the link, there's a chance that the newly opened tab or window can know details about the page that opened it. This might not be a problem in many cases, but it could potentially be exploited by bad websites.
 
 
 ### Improvements from previous version
@@ -76,10 +64,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Continued development
 
-1) I would like to implement this project using ReactJS, Sass.
-2) Instead of getting fonts from another link, I would like to host it locally to improve web performance metrics like LCP, FCP
-3) In another iteration, I would like to explore how to vertically position the qr code to the center especially when the bottom tab exists
-4) Segregate the CSS reset in a separate css file (esp handy for larger projects)
+1) Explore more testing such as clicking the footer links, and taking one to the respective sites.
+2) PageSpeed Insight detected that there is no Content Security Policy (CSP) in enforcement mode. A strong CSP significantly reduces the risk of cross-site scripting (XSS) attacks. [Learn how to use a CSP to prevent XSS](https://developer.chrome.com/docs/lighthouse/best-practices/csp-xss/?utm_source=lighthouse&utm_medium=lr)
   
 
 ### Useful resources
