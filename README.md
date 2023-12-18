@@ -43,7 +43,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
   
-1) Importance of rel="noreferrer”. When we use target="_blank" in your HTML code to open a link in a new tab or window, there's a potential security risk, especially in older web browsers. If we do not add this information to the link, there's a chance that the newly opened tab or window can know details about the page that opened it. This might not be a problem in many cases, but it could potentially be exploited by bad websites.
+1) Importance of rel="noreferrer”. When we use target="_blank" in HTML code to open a link in a new tab or window, there's a potential security risk, especially in older web browsers. If we do not add this information to the link, there's a chance that the newly opened tab or window can know details about the page that opened it. This might not be a problem in many cases, but it could potentially be exploited by bad websites.
 
 
 ### Improvements from previous version
