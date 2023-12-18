@@ -39,22 +39,17 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![QR code component screenshot]()
+![QR code component screenshot](https://github.com/rupali317/qr-code-challenge-react-sass/blob/main/public/images/QR%20code%20challenge%20screenshot.png)
 
 
-  
-
-
-
-  
 
 ### Links
 
   
 
-- Solution URL: [QR code github]()
+- Solution URL: [QR code github](https://github.com/rupali317/qr-code-challenge-react-sass)
 
-- Live Site URL: [QR code challenge live]()
+- Live Site URL: [QR code challenge live](https://rupali-qr-code-react-sass.netlify.app/)
 
   
 
