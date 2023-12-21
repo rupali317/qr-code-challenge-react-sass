@@ -1,0 +1,13 @@
+footer {
+  max-width: 65%;
+
+  p {
+    font-size: $font-size-footer;
+    margin-top: $space-l;
+    color: inherit;
+  }
+
+  a {
+    color: $link-color;
+  }
+}
