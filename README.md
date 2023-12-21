@@ -22,7 +22,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![QR code component screenshot](https://github.com/rupali317/qr-code-challenge-react-sass/blob/main/public/images/QR%20code%20challenge%20screenshot.png)
+![QR code component screenshot](https://github.com/rupali317/qr-code-challenge-react-sass/blob/main/public/images/qr-code-challenge-screenshot.png)
 
 
 ### Links
