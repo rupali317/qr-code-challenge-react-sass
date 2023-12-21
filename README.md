@@ -36,9 +36,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Built with
 
 1) Semantic HTML5 markup
-2) ReactJS (used create-react-app command to setup the project)
+2) ReactJS (used [create-react-app](https://radixweb.com/blog/steps-to-build-react-project-with-create-react-app) command to setup the project)
 3) SASS Ruby
-4) React Testing Library
+4) [React Testing Library](https://testing-library.com/docs/queries/about/#priority)
 
 
 ### What I learned
@@ -49,10 +49,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Improvements from previous version
 
 1) Instead of getting fonts from another link, I hosted it locally to improve web performance metrics.
-![PageSpeed Insights mobile](https://github.com/rupali317/qr-code-challenge-react-sass/blob/main/public/images/PageSpeed%20Insights%20mobile.png)
-![PageSpeed Insights desktop](https://github.com/rupali317/qr-code-challenge-react-sass/blob/main/public/images/PageSpeed%20Insights%20desktop.png)
+![PageSpeed Insights mobile](https://github.com/rupali317/qr-code-challenge-react-sass/blob/main/public/images/page-speed-insights-mobile.png)
+![PageSpeed Insights desktop](https://github.com/rupali317/qr-code-challenge-react-sass/blob/main/public/images/page-speed-insights-desktop.png)
 2) In another iteration, I was able to vertically position the QR code to the center of the mobile screen especially when the bottom bar of the browser exists. In my case, svh unit is suitable since this project does not involve any scrolling
-![QR code mobile version](https://github.com/rupali317/qr-code-challenge-react-sass/blob/main/public/images/QR%20code%20mobile%20version.jpg)
+![QR code mobile version](https://github.com/rupali317/qr-code-challenge-react-sass/blob/main/public/images/qr-code-mobile-version.jpg)
 3) Segregated the SCSS files to enhance modularity and maintainability 
 
 
