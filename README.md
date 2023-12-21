@@ -39,6 +39,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 2) ReactJS (used [create-react-app](https://radixweb.com/blog/steps-to-build-react-project-with-create-react-app) command to setup the project)
 3) SASS Ruby
 4) [React Testing Library](https://testing-library.com/docs/queries/about/#priority)
+5) Prettier formatter
 
 
 ### What I learned
