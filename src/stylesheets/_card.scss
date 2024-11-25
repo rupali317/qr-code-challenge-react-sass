@@ -13,7 +13,7 @@ img {
   width: 100%; /* These dimensions are needed otherwise if the user alters the font setting, the card dimension will scale but not the image since the dimensions of the image are set in HTML (as pixels) as attributes  */
 }
 
-h2 {
+h1 {
   font-size: $font-size-main;
   font-weight: $font-weight-bold;
   line-height: $line-height-normal;
